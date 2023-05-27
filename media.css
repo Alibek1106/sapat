@@ -1,0 +1,89 @@
+@media screen and (max-width: 1200px) {
+  .elementary-school{
+    display: block;
+  }
+
+  .elementary-school-left{
+    display: none;
+  }
+
+  .elementary-school-right{
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .middle-school-right{
+    display: none;
+  }
+
+  .middle-school-left{
+    width: 100%;
+    padding-right: 0;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-right{
+    display: none;
+  }
+
+  .hero-left{
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 0;
+    width: 80%;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  .hero-left p{
+    margin: 22px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .opportunity-left{
+    display: none;
+  }
+
+  .opportunity-right{
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .community{
+    padding: 100px 0;
+  }
+
+  .community-header{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .community-description{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .elementary-school-right h3{
+    font-size: 45px;
+  }
+
+  .middle-school h3{
+    font-size: 45px;
+  }
+
+  .opportunity-right h3{
+    font-size: 45px;
+  }
+}
